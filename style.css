@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.animated-text {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #ee9ca7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
